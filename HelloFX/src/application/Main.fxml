@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="314.0" prefWidth="319.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label fx:id="fullDep" layoutX="88.0" layoutY="66.0" text="Select Departure Location:" />
+      <ChoiceBox fx:id="checkBox1" layoutX="83.0" layoutY="83.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="checkBox2" layoutX="83.0" layoutY="132.0" prefWidth="150.0" />
+      <Label fx:id="fullTime" layoutX="98.0" layoutY="115.0" text="Select Departure Time:" />
+      <Label fx:id="fullDest" layoutX="86.0" layoutY="164.0" text="Select Destination Location:" />
+      <ChoiceBox fx:id="checkBox3" layoutX="83.0" layoutY="181.0" prefWidth="150.0" />
+      <Label fx:id="fullName" layoutX="14.0" layoutY="6.0" text="Full Name:" />
+      <Label fx:id="fullNumber" layoutX="14.0" layoutY="31.0" prefHeight="17.0" prefWidth="88.0" text="Phone Number:" />
+      <TextField id="Number" fx:id="myNumber" layoutX="100.0" layoutY="27.0" prefHeight="25.0" prefWidth="215.0" promptText="00 000 000" />
+      <TextField id="name" fx:id="myName" layoutX="100.0" layoutY="2.0" prefHeight="25.0" prefWidth="215.0" promptText="First + Last" />
+      <Button fx:id="fullButton" layoutX="131.0" layoutY="266.0" mnemonicParsing="false" onAction="#Submit" text="Submit" />
+      <ChoiceBox fx:id="checkBox4" layoutX="83.0" layoutY="228.0" prefWidth="150.0" />
+      <Label fx:id="fullType" layoutX="100.0" layoutY="211.0" text="Select Rider or Driver:" />
+      <Label fx:id="exitMessage" alignment="CENTER" layoutX="28.0" layoutY="58.0" opacity="0.0" text="Congratualtions" />
+      <Button fx:id="Button" layoutX="253.0" layoutY="54.0" mnemonicParsing="false" onAction="#Connect" opacity="0.0" text="Connect" />
+   </children>
+</AnchorPane>
